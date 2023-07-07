@@ -16,5 +16,6 @@ let output = Sortingband(touristSpots);
 output.forEach((value)=>{
 
 	const elemento = document.creatElement("li");
+	elemento.innerHTML = value;
 	document.getElementById("band").appendChild(elemento);
-})
+});
